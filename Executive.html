@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="cheejiee.css" type="text/css"/>
+
+</head>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!--Parallax Photo One-->
+				
+			<div class="photo-one">
+			
+				<div class="logo">
+					<br/><br/><br/><br/>
+					<img alt="" src="pics/ball-hand.png" style="text-align:center;width:250px;height:300px;"/>
+				</div>
+
+				<h2>Meet Our Team</h2>
+				
+				<h3>The Legend</h3>
+				
+				<br/><br/><br/><br/><br/>
+				
+				<section id="lead" class="demo">
+  					<a href="Executive.html"><span></span></a>
+				</section>
+		
+			<!--Navi Bar-->	
+			<div id="container">
+	<div class="nav">
+		<ul>
+			<li><a href="Home.html">HOME</a>
+				<ul>
+				<li><a href="Explorpage.html">Explorpage</a></li>
+				<li><a href="Achievement.html">Achievement</a></li>
+				<li><a href="Sponsor.html">Sponsor</a></li>
+				
+				</ul>
+			</li>
+			<li><a href="Gallery.html">Gallery</a>
+				<ul>
+				<li><a href="Executive.html">Executive</a></li>
+				</ul>
+			</li>
+				<li><a href="Training.html">Training</a>
+				<ul>
+				<li><a href="Timetable.html">Timetable</a></li>
+				<li><a href="Pastevent.html">Pastevent</a></li>
+				</ul>
+			</li>
+				<li><a href="Aboutus.html">Aboutus</a>
+				<ul>
+				<li><a href="Joinus.html">Joinus</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</div>
+		</div>
+	<div id="parallax2" >
+			<div class="main">
+			
+<h1 style="color:white">Meet our Team</h1>
+<p style="color:white">we’re a team of passionate teachers of the game who won’t stop at anything in our quest to inspire and equip dedicated players and coaches everywhere.</p>
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="pics/chow.jfif" alt="Mountains" style="width:100%">
+      <h3>The president</h3>
+	  <p>Lim Kai Xuan</p>
+      <p>acexuan2000@gmail.com</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pics/timcook.jpg" alt="Lights" style="width:100%">
+      <h3>The Vice President</h3>
+	  <p>Lim Pot Link</p>
+      <p>potlink1999@gmail.com</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pics/ronaldo.jfif" alt="Nature" style="width:100%">
+     <h3>The Secretary</h3>
+	  <p>Teh Kai Wen</p>
+      <p>kevinteh20@gmail.com</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pics/mark.jfif" alt="Mountains" style="width:100%">
+     <h3>The Treasurer</h3>
+	  <p>Wan Yu Hong</p>
+      <p>jerrywan84@gmail.com</p>
+    </div>
+  </div>
+ <div class="column">
+    <div class="content">
+    <img src="pics/jho.jfif" alt="Mountains" style="width:100%">
+     <h3>The Vice Captain</h3>	
+	  <p>Loo Weng Sam</p>
+      <p>TP046066@mail.apu.edu.my</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+ <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<!-- END MAIN -->
+</div>
+</div>
+</body>
+
+</html>
+

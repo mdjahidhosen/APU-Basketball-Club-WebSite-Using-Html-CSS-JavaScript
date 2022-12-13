@@ -1,0 +1,309 @@
+﻿body{
+	margin:0px;
+	background-image:url('pics/Background.1.jpg');
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+
+
+.nav{
+	border: thin solid #000000;
+	position: relative;
+	text-shadow: 2px 2px black;
+	color: white;
+	z-index: 1; 
+	width: 100%;
+	height: 60px;
+}
+.nav ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+}
+.nav ul li{
+	float:left;
+	margin-top:20px;
+}
+.nav ul li a{
+	width:150px;
+	color:white;
+	display:block;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	border-radius:10px;
+	font-family:Century Gothic;
+	font-weight:bold;
+}
+.nav a:hover{
+	background:#2A5DB0;
+	color:white;
+}
+.nav ul li ul{
+	
+	box-shadow: 0 3px 10px 0 black;
+}
+.nav ul li ul li{
+	float:none;
+}
+.nav ul li ul{
+	display:none;
+}
+.nav ul li:hover ul{
+	display:block;
+}
+
+
+.firstdisplay{   
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.club{
+	color:white;
+	background:rgba(0,0,0,0.2);
+	font-size:80px;
+	width:100%;
+	text-align:center;
+	text-shadow:2px 2px black;
+}
+.club:hover{ 
+	text-shadow:2px 2px #2A5DB0;
+}
+.apit{
+	transition:transform 0.5s;
+}
+.apit:hover{
+	transform:translateY(-10px);
+	box-shadow: 0 0 20px 3px white;
+}
+.newstitle{
+	color:white;
+	background:rgba(0,0,0,0.6);
+	width:100%;
+}
+
+
+
+
+.newscard{
+	border-radius:30px;
+	width:400px;
+	height:300px;
+	transition:transform 1s;
+}
+.newscard:hover{
+	transform:translateY(-10px);
+	box-shadow: 0 0 20px 3px white;
+}
+.newspic{
+	border-radius:30px 30px 0 0;
+	padding:10px;
+	width:400px;
+	height:300px;
+	margin:0;
+}
+.newstext{
+	border-radius:0 0 30px 30px;
+	padding:10px;
+	background:white;
+	width:400px;
+	height:200px;
+	text-align:justify; /*align the text*/
+}
+
+.fullnews{
+	color:white;
+	background:rgba(0,0,0,0.3);
+	width:100%;
+}
+
+
+
+
+.rowdisplay{   /*changes the elements into blocks where then said blocks are arranged in a horizontal line (the blocks are then alligned at the center)*/
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.skills{
+	color:white;
+	background:rgba(0,0,0,0.3);
+	width:100%;
+	box-shadow: 0 3px 10px 0 white;
+
+}
+
+.posterskills{
+	background:white;
+	margin:10px;
+	width:500px;
+	height:600px;
+	transition:transform 1s;
+}
+.posterskills:hover{
+	transform:translateY(-10px);
+	box-shadow: 0 0 20px 3px white;
+}
+
+/*achiements page*/
+.rowdisplay{ 
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+  	gap: 0px;
+}
+
+
+
+.shadow{ /*shadow place a shadow*/
+	box-shadow: 0 0 10px 3px black;
+}
+
+
+.achive{ /*simple animation*/
+	color: black;
+	width: 500px;
+	height: 372px; 
+	transition: transform 0.5s;
+	font-size: large;
+}
+
+.achive:hover{
+	transform:translateY(-30px); 
+	background:aqua;
+	color:black;
+}
+
+.fmove{
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	color: black;
+	font-size: 12px;
+	font-family: "Cooper Black";
+	padding: 12px 0;
+	background:#FFFFCC;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	transition: transform 0.5s;
+	font-weight: bold;
+}
+.fmove:hover{
+	transform:scale(120%);
+	color:white;
+	background-color:#FFCC66;
+}
+/*Sponsor page*/
+.sponsortitle{
+	color:white;
+	transition:transform 0.5s;
+	background:rgba(0,0,0,0.4);
+	border:1px solid black;
+	font-size:50px;
+	width:100%;
+	text-align:center;
+	text-shadow:2px 2px black;
+}
+.sponsortitle:hover{
+	background:#2A5DB0;
+	}
+
+.rowsponsor{
+	display:flex;
+}
+
+.sponsorcard{
+	color:#808000;
+	background:rgba(0,0,0,0.6);
+	height:400px;
+	border-radius:10px;
+	padding:15px 25px;
+	box-sizing: border-box;
+	margin:10px 15px;
+	transition:transform 0.5s;
+	min-width:300px;
+	text-align:center;
+	box-shadow: 0 3px 10px 0 white;
+}
+.sponsorcard:hover{
+	background:#2A5DB0;
+	transform:translateY(-10px);
+	color:#C2DFFF;
+}
+
+.spon{   /*let the background image cover the whole thing withouht the repeating effect*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.club1{
+	color:white;
+	background:rgba(0,0,0,0.0);
+	font-size:80px;
+	width:100%;
+	text-align:center;
+	text-shadow:2px 2px black;
+	padding:15px 20px 25px 50px;
+	box-sizing: border-box;
+	
+	box-shadow: 0 3px 10px 0 white;
+}
+.club1:hover{ 
+	text-shadow:2px 2px #2A5DB0;
+}
+
+.c1{
+	color:white;
+	background:rgba(0,0,0,0.1);
+	font-size:80px;
+	width:100%;
+	text-align:center;
+	text-shadow:2px 2px black;
+	padding:0px 0px 0px 0px;
+	box-sizing: border-box;
+}
+.c1:hover{ 
+	text-shadow:2px 2px #2A5DB0;
+}
+
+
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.map {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.map,
+.map > .column {
+  padding: 8px;
+      margin-top: 0px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+      margin-top: 70px !important;
+}
+
+/* Clear floats after rows */ 
+.map:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

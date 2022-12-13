@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background-image: none;
+}
+/*style about us page*/
+.sub-header {
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("pics/header.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-header h1 {
+  margin-top: 10vh;
+  font-family: "Staatliches", cursive;
+}
+.about {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.about .main .img {
+  width: 50%;
+}
+.about .main img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 10px 0;
+}
+.all-text {
+  width: 50%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+.main {
+  width: 1290px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.all-text h1 {
+  font-size: 45px;
+  font-family: "Dosis", sans-serif;
+  color: #111111;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 20px;
+  border-left: 5px solid indigo;
+  padding-left: 20px;
+}
+.all-text p {
+  font-family: "Roboto", sans-serif;
+  font-family: 16px;
+  color: #777777;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.vision_section {
+  margin: 20px auto;
+  max-width: 100vw;
+  padding: 50px;
+  display: grid;
+  grid-gap: 4em;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  align-content: center;
+  background-image: radial-gradient(
+    circle,
+    #ffffff,
+    #f5f5f5,
+    #ecebeb,
+    #e2e1e1,
+    #d8d8d7
+  );
+}
+.vision_section h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Dosis", sans-serif;
+  margin-bottom: 10px;
+}
+.vision_section p {
+  text-align: justify;
+}
+.joinus {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  background-size: cover;
+  background-image: radial-gradient(
+    circle,
+    #ffffff,
+    #f5f5f5,
+    #ecebeb,
+    #e2e1e1,
+    #d8d8d7
+  );
+}
+.joinus .img {
+  width: 30%;
+}
+.joinus .form {
+  width: 70%;
+  padding: 0 40px;
+}
+.joinus .img img {
+  width: 100%;
+}
+.title-joinform {
+  display: flex;
+  align-items: center;
+}
+.title-joinform h3 {
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  margin: 0;
+  color: black;
+}
+.title-joinform p {
+  margin: 0;
+  padding-left: 20px;
+  margin-left: 20px;
+  font-size: 1rem;
+  border-left: 5px solid indigo;
+  float: left;
+}
+form input,
+form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form input:focus,
+form textarea:focus {
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form #input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
+form #input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 150px;
+}
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+.right {
+  width: 50%;
+}
+.left {
+  margin-right: 2%;
+}
+/* mobile responsive css */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+  .about {
+    flex-direction: row;
+  }
+  .about .main .img {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .about .main img {
+    width: 50%;
+  }
+  .all-text {
+    width: 100%;
+  }
+  .all-text h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .joinus {
+    background-size: unset;
+    flex-direction: column;
+  }
+  .joinus .img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .joinus .form {
+    width: 100%;
+  }
+  .title-joinform {
+    margin-top: 10px;
+  }
+  .title-joinform h3 {
+    line-height: 2.1rem;
+  }
+  .title-joinform p {
+    text-align: justify;
+  }
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}

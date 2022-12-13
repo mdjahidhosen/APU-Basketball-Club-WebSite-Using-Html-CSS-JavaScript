@@ -1,0 +1,225 @@
+﻿html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	color: #C9A530;
+	font-weight: bold;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 15px 0 15px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+	color: #FFFFFF;
+}
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.addimg1{
+	background:white;
+	background-image:url('pics/Skills-training1.JPEG');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.addimg2{
+	background:white;
+	background-image:url('pics/Skills-training2.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.addimg3{
+	background:white;
+	background-image:url('pics/Skills-training3.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.rowdisplay{
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.exerciseinfo{
+	width:500px;
+	height:600px;
+	padding:15px 25px;
+	box-sizing: border-box;
+	margin:10px 15px;
+}
+.exerciseinfo1{
+	width:500px;
+	height:600px;
+	padding:15px 25px;
+	box-sizing: border-box;
+	margin:10px 15px;
+}
+
+.addimg21{
+	background:white;
+	background-image:url('pics/rules1.JPEG');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.addimg22{
+	background:white;
+	background-image:url('pics/rules2.JPEG');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.addimg23{
+	background:white;
+	background-image:url('pics/rules3.JPEG');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.addimg31{
+	background:white;
+	background-image:url('pics/st1.JPEG');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.addimg32{
+	background:white;
+	background-image:url('pics/st2.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.addimg33{
+	background:white;
+	background-image:url('pics/st3.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.timetableinfojump{
+	transition:transform 0.5s;
+}
+.timetableinfojump:hover{
+	transform:scale(130%);
+}
+
+.traininginfo{
+	width:400px;
+	height:500px;
+	padding:15px 25px;
+	box-sizing: border-box;
+	margin:10px 15px;
+	transition:transform 0.5s;
+}
+.traininginfo:hover{
+	transform:scale(110%);
+  	border: 5px dashed white;
+}
+
+.timetableinfo{
+	transition:transform 0.5s;
+}
+.timetableinfo:hover{
+	transform:scale(110%);
+  	border: 5px dashed black;
+}
+
+.auto-style8 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style1 {
+	color: black;
+	text-align: center;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.auto-style2 {
+	color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-align: center;
+}
+
+
+.auto-style13 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: xx-large;
+}
+.addimg100{
+	background:white;
+	background-image:url('pics/teamSE.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.addimg200{
+	background:white;
+	background-image:url('pics/teamCS.jpeg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.addimg300{
+	background:white;
+	background-image:url('pics/rules3.JPEG');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+
